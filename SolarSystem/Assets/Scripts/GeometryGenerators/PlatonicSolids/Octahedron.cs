@@ -1,34 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using GeometryGenerators;
 using UnityEngine;
 
-public class Octahedron : MonoBehaviour
+public class Octahedron : GeometryGenerator
 {
-    [SerializeField] private Material material;
-
-    private MeshRenderer _meshRenderer;
-    private MeshFilter _meshFilter;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        GenerateMeshComponents();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
-    private void GenerateMeshComponents()
-    {
-        _meshRenderer = gameObject.AddComponent<MeshRenderer>();
-        _meshRenderer.sharedMaterial = material;
-        _meshFilter = gameObject.AddComponent<MeshFilter>();
-        _meshFilter.mesh = GenerateMesh();
-    }
-
-    private Mesh GenerateMesh()
+    
+    protected override Mesh GenerateMesh()
     {
         Mesh mesh = new Mesh();
         mesh.vertices = GenerateVertices();
