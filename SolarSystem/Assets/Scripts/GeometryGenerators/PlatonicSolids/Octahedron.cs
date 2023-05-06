@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Octahedron : GeometryGenerator
 {
-    
     protected override Mesh GenerateMesh()
     {
         Mesh mesh = new Mesh();
@@ -56,8 +55,8 @@ public class Octahedron : GeometryGenerator
             new Vector3(0f, 0f, .5f),
             new Vector3(0f, -.5f, 0f)
         };
-        
-        
+
+
         return vertices;
     }
 }

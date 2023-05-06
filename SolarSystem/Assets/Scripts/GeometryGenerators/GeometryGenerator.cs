@@ -7,11 +7,12 @@ namespace GeometryGenerators
         [SerializeField] private Material material;
         private MeshRenderer _meshRenderer;
         private MeshFilter _meshFilter;
+
         void Start()
         {
             GenerateMeshComponents();
         }
-        
+
         private void GenerateMeshComponents()
         {
             _meshRenderer = gameObject.AddComponent<MeshRenderer>();
