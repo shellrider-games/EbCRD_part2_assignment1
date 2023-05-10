@@ -15,24 +15,24 @@ public class StarShape : GeometryGenerator
             new Vector3(0, 0, -.1f),
 
             //outside points
-            new Vector3(.5f * Mathf.Sin(0 * 2 * Mathf.PI / 5), .5f * Mathf.Cos(0 * 2 * Mathf.PI / 5), 0),
-            new Vector3(.5f * Mathf.Sin(1 * 2 * Mathf.PI / 5), .5f * Mathf.Cos(1 * 2 * Mathf.PI / 5), 0),
-            new Vector3(.5f * Mathf.Sin(2 * 2 * Mathf.PI / 5), .5f * Mathf.Cos(2 * 2 * Mathf.PI / 5), 0),
-            new Vector3(.5f * Mathf.Sin(3 * 2 * Mathf.PI / 5), .5f * Mathf.Cos(3 * 2 * Mathf.PI / 5), 0),
-            new Vector3(.5f * Mathf.Sin(4 * 2 * Mathf.PI / 5), .5f * Mathf.Cos(4 * 2 * Mathf.PI / 5), 0),
+            new Vector3(.7f * Mathf.Sin(0 * 2 * Mathf.PI / 5), .7f * Mathf.Cos(0 * 2 * Mathf.PI / 5), 0),
+            new Vector3(.7f * Mathf.Sin(1 * 2 * Mathf.PI / 5), .7f * Mathf.Cos(1 * 2 * Mathf.PI / 5), 0),
+            new Vector3(.7f * Mathf.Sin(2 * 2 * Mathf.PI / 5), .7f * Mathf.Cos(2 * 2 * Mathf.PI / 5), 0),
+            new Vector3(.7f * Mathf.Sin(3 * 2 * Mathf.PI / 5), .7f * Mathf.Cos(3 * 2 * Mathf.PI / 5), 0),
+            new Vector3(.7f * Mathf.Sin(4 * 2 * Mathf.PI / 5), .7f * Mathf.Cos(4 * 2 * Mathf.PI / 5), 0),
 
             //inside points
 
-            new Vector3(.15f * Mathf.Sin(0 * 2 * Mathf.PI / 5 + Mathf.PI),
-                .15f * Mathf.Cos(0 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
-            new Vector3(.15f * Mathf.Sin(1 * 2 * Mathf.PI / 5 + Mathf.PI),
-                .15f * Mathf.Cos(1 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
-            new Vector3(.15f * Mathf.Sin(2 * 2 * Mathf.PI / 5 + Mathf.PI),
-                .15f * Mathf.Cos(2 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
-            new Vector3(.15f * Mathf.Sin(3 * 2 * Mathf.PI / 5 + Mathf.PI),
-                .15f * Mathf.Cos(3 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
-            new Vector3(.15f * Mathf.Sin(4 * 2 * Mathf.PI / 5 + Mathf.PI),
-                .15f * Mathf.Cos(4 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
+            new Vector3(.2f * Mathf.Sin(0 * 2 * Mathf.PI / 5 + Mathf.PI),
+                .2f * Mathf.Cos(0 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
+            new Vector3(.2f * Mathf.Sin(1 * 2 * Mathf.PI / 5 + Mathf.PI),
+                .2f * Mathf.Cos(1 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
+            new Vector3(.2f * Mathf.Sin(2 * 2 * Mathf.PI / 5 + Mathf.PI),
+                .2f * Mathf.Cos(2 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
+            new Vector3(.2f * Mathf.Sin(3 * 2 * Mathf.PI / 5 + Mathf.PI),
+                .2f * Mathf.Cos(3 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
+            new Vector3(.2f * Mathf.Sin(4 * 2 * Mathf.PI / 5 + Mathf.PI),
+                .2f * Mathf.Cos(4 * 2 * Mathf.PI / 5 + Mathf.PI), 0),
 
             //back middle
             new Vector3(0, 0, .1f)
