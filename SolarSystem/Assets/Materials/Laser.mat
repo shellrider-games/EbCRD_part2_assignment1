@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GreenEmission
+  m_Name: Laser
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
   - _EMISSION
@@ -99,7 +99,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.3
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -107,12 +107,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.52387327, g: 0.9433962, b: 0.3960484, a: 1}
-    - _Color: {r: 0.5238732, g: 0.9433962, b: 0.39604837, a: 1}
-    - _EmissionColor: {r: 1.1294118, g: 11.984314, b: 0.7529412, a: 1}
+    - _BaseColor: {r: 0.45818746, g: 1, b: 0.16509432, a: 1}
+    - _Color: {r: 0.45818746, g: 1, b: 0.16509429, a: 1}
+    - _EmissionColor: {r: 3.5137255, g: 4, b: 3.4980392, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &892733611643961896
+--- !u!114 &3133483574458110028
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
